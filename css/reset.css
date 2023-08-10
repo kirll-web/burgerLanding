@@ -10,11 +10,13 @@
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
+
 :root
 {
   --text-color: #ffffff;
   --bg-color: #1c1c1c;
 	--second-bg-color: #312F30;
+	--orange-color: #F6762C;
 }
 
 nav,footer,header,aside{display: block;}
@@ -43,4 +45,5 @@ ul li{list-style: none;}
 img{vertical-align: top;max-width: 100%;}
 p{line-height: 1.4;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 500;}
+q{quotes:none;}
 
